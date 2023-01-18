@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Фреймы</title>
+ </head>
+ <style>
+    frameset { /* основное содержимое */
+  position: relative; /* боковая колонка перемещается в рамках основного содержания */
+  margin: 0 auto; /* сайт располагается по центру экрана */
+  max-width: 1200px; /* резиновая, растягивается до значения в 1200px */
+  padding-right: 310px; /* = боковая колонка + отступ в 10px */
+}
+frame { /* боковая колонка */
+  width: 300px; /* фиксированная, не меняется с изменением размера окна браузера */
+  position: absolute; top: 0; right: 0; /* прижата к верхнему правому углу */
+}
+
+
+
+    
+    
+    </style>
+      
+ <frameset cols="8%,75%" noresize scrolling="no" frameborder="0" framespacing="0" noresize>
+  <frame src="menu.html" name="MENU" noresize scrolling="no" frameborder="0" framespacing="0">
+  <frame src="content.html" name="CONTENT" noresize  frameborder="0" framespacing="0">
+ </frameset>
+
+</html>

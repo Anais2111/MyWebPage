@@ -1,0 +1,509 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Содержание сайта</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+     <script src="./jquery-3.3.1.min.js"></script>
+      <script src="libs/fullpage/jquery.easings.min.js"></script>
+<script src="libs/fullpage/scrolloverflow.min.js"></script>
+<script src="libs/fullpage/jquery.fullPage.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+      $('#fullpage').fullpage();
+      menu: '#navigation'
+    });
+</script>
+        
+     <!-- CSS файл плагина fullpage -->
+<link href="libs/fullpage/jquery.fullPage.css" type="text/css" rel="stylesheet">
+ </head>
+
+<style>
+    
+    .section:first-child {
+  background-image: url('mas.jpg');
+ background-size: cover;
+ background-repeat: no-repeat; ;
+}
+     @supports (object-fit: cover) {
+     .section  {
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+     }
+ 
+.section:nth-child(3) {
+  background: #e02222;
+
+}
+   .section:nth-child(2) {
+  background-color: #131217;
+       opacity: 1;
+
+} 
+    
+  .section:nth-child(4) {
+  background: #e02222;
+
+} 
+.section:last-child {
+ background: url('support.png');
+ 
+ background-size: cover;
+ background-repeat: no-repeat; ;
+ 
+      
+    
+}
+
+
+
+   .parametr{    
+ position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+   
+    
+    
+
+   
+    </style>
+    <body>
+
+   
+  
+
+  <div id="fullpage">
+    <section class="section" data-anchor="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+          
+    
+                <center> 
+                 
+                           
+<span id="typed"></span>
+                  </center>
+                       
+            <style>
+                
+    #typed {
+   font-size: 40px;
+  font-weight: 600;
+   color: #e01f1f;
+        font-weight:100;
+        font-family: 'Raleway';
+}
+            
+            .typed-cursor{
+    opacity: 1;
+    font-weight: 200;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+ .linee{
+     position: absolute;
+              border-left: 1px solid ghostwhite; /* Параметры линии */ 
+    margin-left: 50%; /* Отступ слева */
+         top: 0%;
+    padding-left: 20px; /* Расстояние от линии до текста */ 
+       height: 170px; 
+             
+             
+         }
+         .linr{
+             position: absolute;
+             border-left: 1px solid ghostwhite; /* Параметры линии */ 
+    margin-left: 50%; /* Отступ слева */
+         bottom: 0%;
+    padding-left: 20px; /* Расстояние от линии до текста */ 
+       height: 170px;  
+             
+             
+         }
+                span.stop{
+                    font-family: cursive;
+                   
+                  margin-left: 270px;
+                    color: red;
+                    font-size: 15px;
+         
+                }
+                
+         
+                p.sto{
+                    font-size: 19px;
+                    margin-left: 200px;
+                    color: white;
+                    
+                }
+            
+            
+            
+            </style>
+                        
+                  
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+<script>
+  var typed = new Typed('#typed', {
+     strings: [" Adults put on a mask when leaving home.", " Children when they come home", ],
+    typeSpeed: 80,
+    loop: true
+  });
+</script>  
+              
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-anchor="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+           
+        
+           <p class="sto"> There is so much power in our words that they must<br> be carefully selected, because the language<br> has incredible power to unleash wars,<br> to curse the glorify, to give oaths to give and take lives,<br> to hurt the heart and make a person cynical or cordial.<br> Be careful in your explanations<br> and remember that taming the tongue<br> is difficult but it is possible.<br> Mouths, uttering both blessings<br> and curses doomed to perdition.</p>
+            <h2><span class="stop">Dianna Charisse</span></h2>
+           
+            <style>
+               
+                 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+
+#feedback-page{
+    text-align:center;
+    color: red;
+}
+
+#form-main{
+  position: absolute;
+    top: 0%;
+margin: 3% 80%;
+}
+
+#form-div {
+    background-image: url(bumaga.png);
+    padding-left:120px;
+    padding-right:100px;
+    padding-top:40px;
+    padding-bottom:130px;
+    width: 350px;
+    height: 400px;
+    float: left;
+    left: 50%;
+    position: absolute;
+  margin-top:30px;
+    margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+    background-color:  rgba(0,0,0,0);;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-weight:200;
+    font-size: 18px;
+    border-radius: 0;
+    line-height: 22px;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 30px;
+    width:80%;
+   
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  border: 3px solid #221F1F;
+}
+
+.feedback-input:focus{
+   background-color: rgba(0,0,0,0);
+    box-shadow: 0;
+    border: 3px solid #221F1F;
+    outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+    color:#221F1F;
+    border:#221F1F solid 3px;
+}
+
+/* Icons ---------------------------------- */
+
+textarea {
+    width: 80%;
+    height: 50px;
+    line-height: 100%;
+    resize:vertical;
+}
+     input{
+    width: 80%;
+    height: 45px;
+    line-height: 100%;
+   
+    resize:vertical;
+                    
+                    
+                    
+                }
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    width: 80%;
+    background-color: rgba(0,0,0,0);
+}
+
+#button-blue{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    float:left;
+    width: 80%;
+    height: 50px;
+    border: red solid 4px;
+    cursor:pointer;
+    background-color:rgba(0,0,0,0);
+    color:white;
+    font-size:25px;
+    padding-top:5px;
+    padding-bottom:5px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+                legend{
+    
+    font-family: sans-serif;
+    font-size: 20px;
+                    font-weight: bold;
+  margin: 0;
+  padding: 0;
+  color: red; 
+                 
+}
+                          
+
+#button-blue:hover{
+    background-color: white;
+    color: red;
+}
+    
+.submit:hover {
+     
+    color: red;
+}
+    
+.ease {
+    width: 0px;
+    height: 74px;
+    background-color: #fbfbfb;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+}
+                    
+                 
+                
+                 
+                  
+         </style>
+        
+                
+              
+                
+         <div id="form-main">
+  <div id="form-div">
+    <form class="form" id="form1"
+     
+      action="https://formspree.io/xeqlbdje"
+  method="POST"
+  autocomplete="off"
+     >
+      
+      <p class="name">
+       <legend> First Name</legend>
+        <input name="Firstname" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input"  id="name" />
+      </p>
+       <p class="name">
+       <legend> Last Name</legend>
+        <input name="Lastname" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input"  id="name" />
+      </p>
+      <p class="email">
+        <legend>Email</legend>
+        <input name="Email" type="text" class="validate[required,custom[email]] feedback-input" id="email"  />
+      </p>
+      
+     
+       <p class="name">
+       <legend> Aducation</legend>
+        <input name="Aducation" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input"  id="name" />
+      </p>
+      
+      <div class="submit">
+        <input type="submit" value="Partner with us" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
+    </div>
+             
+          
+                
+
+   
+
+    <script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+    
+    var form = document.getElementById("form1");
+    var button = document.getElementById("button-blue");
+    var status = document.getElementById("my-form-status");
+
+    // Success and Error functions for after the form is submitted
+    
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "Thanks!";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+  
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+    
+</script>  
+             
+     
+     
+     
+       
+                  
+            
+
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="section" data-anchor="portfolio" >
+       
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+       
+  <style>
+      .partner{
+          color: red;
+          font-family: monospace;
+          font-size: 46px;
+          text-align: center;
+          
+          
+      }      
+      .life {
+         position: absolute;
+          top: 0%;
+          margin-top: 40%;
+          margin-left: 10%;
+          
+      }
+      .hr{
+         position: absolute;
+          top: 0%;
+          margin-top: 40%;
+          margin-left: 60%;
+      }
+              
+              
+              </style>
+
+<h1 class="partner">SUPPORT IS AVAILABLE</h1>
+
+<a href="https://www.lifeline.org.au/"><img class="life" src="lifeline.png"></a>		
+
+<a href="http://www.headspace.org.au" target="_blank" class="hover"><img class="hr" src="headspase.png" class="partnerLogo" alt="Headspace"></a>
+
+
+      
+       
+             
+          </div>
+        </div>
+      </div>
+        
+    </section>
+     
+     
+     
+              
+              
+              
+          </div>
+      
+       
+        
+   
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
